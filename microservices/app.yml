@@ -1,0 +1,28 @@
+apps:
+  - name: user-service
+    restart_delay: 100
+    script: cd user-service && node start.server.js
+    autorestart: true
+    env:
+      NODE_ENV: development
+
+  - name: admin-service
+    restart_delay: 100
+    script: cd admin-service && node start.server.js
+    autorestart: true
+    env:
+      NODE_ENV: development
+
+  - name: blog-service
+    restart_delay: 100
+    script: cd blog-service && node start.server.js
+    autorestart: true
+    env:
+      NODE_ENV: development
+
+  - name: event-bus-service
+    restart_delay: 100
+    script: cd event-bus-service && node start.server.js
+    autorestart: true
+    env:
+      NODE_ENV: development

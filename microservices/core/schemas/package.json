@@ -1,0 +1,23 @@
+{
+  "//": [
+    " Author: Dipak savaliya"
+  ],
+  "name": "wt-schemas",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "wt-config": "file:../config",
+    "wt-server": "file:../server",
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^8.1.1",
+    "validator": "^13.12.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

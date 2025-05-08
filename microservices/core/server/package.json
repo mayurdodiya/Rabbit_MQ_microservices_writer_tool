@@ -1,0 +1,29 @@
+{
+  "//": [
+    " Author: Dipak savaliya"
+  ],
+  "name": "wt-server",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "wt-config": "file:../config",
+    "wt-lib": "file:../lib",
+    "wt-schemas": "file:../schemas",
+    "wt-utils": "file:../utils",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "minimum-tls-version": "^0.0.3",
+    "mongoose": "^8.1.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "require": "^2.4.20",
+    "socket.io": "^4.7.5"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "//": [
+    " Author: Dipak savaliya"
+  ],
+  "name": "wt-config",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
